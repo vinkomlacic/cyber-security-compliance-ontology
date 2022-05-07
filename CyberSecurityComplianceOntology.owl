@@ -1,0 +1,1035 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/vmlacic/ontologies/2022/1/cyber-security-compliance-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/vmlacic/ontologies/2022/1/cyber-security-compliance-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/vmlacic/ontologies/2022/1/cyber-security-compliance-ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Anonymisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApplicableRegulationText"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchitectureComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Channel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConditionalSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confidential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConfidentialDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataSetCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deidentification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganisationalSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrivacyMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrivateDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proprietary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProprietaryDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pseudonymisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityMeasureSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityMeasureSourceCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensitiveDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensitivityValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tokenisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasApplicableRegulationText"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArchitectureComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasChannel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDataType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOperand"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrivacyMechanism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSensitivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#madeIrrelevantByPrivacyMechanism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mentionedByApplicableRegulationText"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mentionsSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#processesDataSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresImplementationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suggestsImplementationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#underCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEmployeeNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOperator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSecondOperand"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTargetMarketSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTargetProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUserBaseSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWorkload"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Channel"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ArchitectureComponent"/>
+            <ObjectExactCardinality cardinality="2">
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Node"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ConfidentialDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSensitivity"/>
+                <Class IRI="#Confidential"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Node"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ArchitectureComponent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasChannel"/>
+                <Class IRI="#Channel"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PrivateDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSensitivity"/>
+                <Class IRI="#Private"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProprietaryDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSensitivity"/>
+                <Class IRI="#Proprietary"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PublicDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSensitivity"/>
+                <Class IRI="#Public"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SensitiveDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSensitivity"/>
+                <Class IRI="#Sensitive"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SensitivityValuePartition"/>
+        <ObjectUnionOf>
+            <Class IRI="#Confidential"/>
+            <Class IRI="#Private"/>
+            <Class IRI="#Proprietary"/>
+            <Class IRI="#Public"/>
+            <Class IRI="#Sensitive"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Anonymisation"/>
+        <Class IRI="#PrivacyMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Architecture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasArchitectureComponent"/>
+            <Class IRI="#ArchitectureComponent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchitectureComponent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#processesDataSet"/>
+            <Class IRI="#DataSet"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Channel"/>
+        <Class IRI="#ArchitectureComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasArchitecture"/>
+            <Class IRI="#Architecture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasEmployeeNumber"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasTargetMarketSize"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasUserBaseSize"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="#hasOperator"/>
+                <Literal>!=</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#hasOperator"/>
+                <Literal>&lt;</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#hasOperator"/>
+                <Literal>&lt;=</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#hasOperator"/>
+                <Literal>=</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#hasOperator"/>
+                <Literal>&gt;</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOperand"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasOperator"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasSecondOperand"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasTargetProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConditionalSecurityMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSecurityMeasure"/>
+            <Class IRI="#SecurityMeasure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConditionalSecurityMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#underCondition"/>
+            <ObjectUnionOf>
+                <Class IRI="#Condition"/>
+                <Class IRI="#DataSetCondition"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confidential"/>
+        <Class IRI="#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConfidentialDataType"/>
+        <Class IRI="#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataSet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDataType"/>
+            <Class IRI="#DataType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataSet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrivacyMechanism"/>
+            <Class IRI="#PrivacyMechanism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataSetCondition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDataType"/>
+            <Class IRI="#DataType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataSetCondition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#madeIrrelevantByPrivacyMechanism"/>
+            <Class IRI="#PrivacyMechanism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSensitivity"/>
+            <Class IRI="#SensitivityValuePartition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deidentification"/>
+        <Class IRI="#PrivacyMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Node"/>
+        <Class IRI="#ArchitectureComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganisationalSecurityMeasure"/>
+        <Class IRI="#SecurityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private"/>
+        <Class IRI="#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrivateDataType"/>
+        <Class IRI="#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proprietary"/>
+        <Class IRI="#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProprietaryDataType"/>
+        <Class IRI="#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudonymisation"/>
+        <Class IRI="#PrivacyMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public"/>
+        <Class IRI="#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicDataType"/>
+        <Class IRI="#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redaction"/>
+        <Class IRI="#PrivacyMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulation"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#requiresImplementationOf"/>
+                <ObjectUnionOf>
+                    <Class IRI="#ConditionalSecurityMeasure"/>
+                    <Class IRI="#SecurityMeasure"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#suggestsImplementationOf"/>
+                <ObjectUnionOf>
+                    <Class IRI="#ConditionalSecurityMeasure"/>
+                    <Class IRI="#SecurityMeasure"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+            <ObjectUnionOf>
+                <Class IRI="#SecurityMeasureSource"/>
+                <Class IRI="#SecurityMeasureSourceCategory"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mentionedByApplicableRegulationText"/>
+            <Class IRI="#ApplicableRegulationText"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecurityMeasureSourceCategory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+            <ObjectUnionOf>
+                <Class IRI="#SecurityMeasureSource"/>
+                <Class IRI="#SecurityMeasureSourceCategory"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensitive"/>
+        <Class IRI="#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensitiveDataType"/>
+        <Class IRI="#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensitivityValuePartition"/>
+        <Class IRI="#ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalSecurityMeasure"/>
+        <Class IRI="#SecurityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tokenisation"/>
+        <Class IRI="#Pseudonymisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValuePartition"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Anonymisation"/>
+        <Class IRI="#Deidentification"/>
+        <Class IRI="#Pseudonymisation"/>
+        <Class IRI="#Redaction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ApplicableRegulationText"/>
+        <Class IRI="#Architecture"/>
+        <Class IRI="#ArchitectureComponent"/>
+        <Class IRI="#Company"/>
+        <Class IRI="#Condition"/>
+        <Class IRI="#ConditionalSecurityMeasure"/>
+        <Class IRI="#DataSet"/>
+        <Class IRI="#DataSetCondition"/>
+        <Class IRI="#DataType"/>
+        <Class IRI="#PrivacyMechanism"/>
+        <Class IRI="#Regulation"/>
+        <Class IRI="#SecurityMeasure"/>
+        <Class IRI="#SecurityMeasureSource"/>
+        <Class IRI="#SecurityMeasureSourceCategory"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Channel"/>
+        <Class IRI="#Node"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Confidential"/>
+        <Class IRI="#Private"/>
+        <Class IRI="#Proprietary"/>
+        <Class IRI="#Public"/>
+        <Class IRI="#Sensitive"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConfidentialDataType"/>
+        <Class IRI="#PrivateDataType"/>
+        <Class IRI="#ProprietaryDataType"/>
+        <Class IRI="#PublicDataType"/>
+        <Class IRI="#SensitiveDataType"/>
+    </DisjointClasses>
+    <DifferentIndividuals/>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasApplicableRegulationText"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasArchitecture"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasArchitectureComponent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasChannel"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDataType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNode"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOperand"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPrivacyMechanism"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSecurityMeasure"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#madeIrrelevantByPrivacyMechanism"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#mentionedByApplicableRegulationText"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#mentionsSecurityMeasure"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#processesDataSet"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresImplementationOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#suggestsImplementationOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#underCondition"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasChannel"/>
+        <ObjectProperty IRI="#hasNode"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#mentionedByApplicableRegulationText"/>
+        <ObjectProperty IRI="#mentionsSecurityMeasure"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasOperand"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSecurityMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSensitivity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#underCondition"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasApplicableRegulationText"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasArchitecture"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasArchitectureComponent"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasApplicableRegulationText"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasArchitecture"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasArchitectureComponent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasChannel"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasDataType"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasNode"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasOperand"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasPrivacyMechanism"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#madeIrrelevantByPrivacyMechanism"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#mentionedByApplicableRegulationText"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#mentionsSecurityMeasure"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#processesDataSet"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#requiresImplementationOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#suggestsImplementationOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#underCondition"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasApplicableRegulationText"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasArchitecture"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasArchitectureComponent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasChannel"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasDataType"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasNode"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasOperand"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasPrivacyMechanism"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#madeIrrelevantByPrivacyMechanism"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#mentionedByApplicableRegulationText"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#mentionsSecurityMeasure"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#processesDataSet"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#requiresImplementationOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#suggestsImplementationOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#underCondition"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+        <ObjectUnionOf>
+            <Class IRI="#SecurityMeasure"/>
+            <Class IRI="#SecurityMeasureSourceCategory"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasApplicableRegulationText"/>
+        <Class IRI="#Regulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasArchitecture"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasArchitectureComponent"/>
+        <Class IRI="#Architecture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasChannel"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDataType"/>
+        <ObjectUnionOf>
+            <Class IRI="#DataSet"/>
+            <Class IRI="#DataSetCondition"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNode"/>
+        <Class IRI="#Channel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOperand"/>
+        <Class IRI="#Condition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrivacyMechanism"/>
+        <Class IRI="#DataSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSecurityMeasure"/>
+        <Class IRI="#ConditionalSecurityMeasure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSensitivity"/>
+        <Class IRI="#DataType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#madeIrrelevantByPrivacyMechanism"/>
+        <Class IRI="#DataSetCondition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mentionedByApplicableRegulationText"/>
+        <ObjectUnionOf>
+            <Class IRI="#ConditionalSecurityMeasure"/>
+            <Class IRI="#SecurityMeasure"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#processesDataSet"/>
+        <Class IRI="#ArchitectureComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresImplementationOf"/>
+        <Class IRI="#Regulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suggestsImplementationOf"/>
+        <Class IRI="#Regulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#underCondition"/>
+        <Class IRI="#ConditionalSecurityMeasure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#comesFromSecurityMeasureSource"/>
+        <ObjectUnionOf>
+            <Class IRI="#SecurityMeasureSource"/>
+            <Class IRI="#SecurityMeasureSourceCategory"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasApplicableRegulationText"/>
+        <Class IRI="#ApplicableRegulationText"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasArchitecture"/>
+        <Class IRI="#Architecture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasArchitectureComponent"/>
+        <Class IRI="#ArchitectureComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasChannel"/>
+        <Class IRI="#Channel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDataType"/>
+        <Class IRI="#DataType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNode"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrivacyMechanism"/>
+        <Class IRI="#PrivacyMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSecurityMeasure"/>
+        <Class IRI="#SecurityMeasure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSensitivity"/>
+        <Class IRI="#SensitivityValuePartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#madeIrrelevantByPrivacyMechanism"/>
+        <Class IRI="#PrivacyMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mentionedByApplicableRegulationText"/>
+        <Class IRI="#ApplicableRegulationText"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#processesDataSet"/>
+        <Class IRI="#DataSet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresImplementationOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#ConditionalSecurityMeasure"/>
+            <Class IRI="#SecurityMeasure"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suggestsImplementationOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#ConditionalSecurityMeasure"/>
+            <Class IRI="#SecurityMeasure"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#underCondition"/>
+        <ObjectUnionOf>
+            <Class IRI="#Condition"/>
+            <Class IRI="#DataSetCondition"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasEmployeeNumber"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasOperator"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSecondOperand"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasTargetMarketSize"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasTargetProperty"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasUserBaseSize"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasWorkload"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEmployeeNumber"/>
+        <Class IRI="#Company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOperator"/>
+        <Class IRI="#Condition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSecondOperand"/>
+        <Class IRI="#Condition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTargetMarketSize"/>
+        <Class IRI="#Company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTargetProperty"/>
+        <Class IRI="#Condition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUserBaseSize"/>
+        <Class IRI="#Company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWorkload"/>
+        <Class IRI="#SecurityMeasure"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEmployeeNumber"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOperator"/>
+        <DataOneOf>
+            <Literal>!=</Literal>
+            <Literal>&lt;</Literal>
+            <Literal>&lt;=</Literal>
+            <Literal>=</Literal>
+            <Literal>&gt;</Literal>
+            <Literal>&gt;=</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSecondOperand"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTargetMarketSize"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTargetProperty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUserBaseSize"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWorkload"/>
+        <DataOneOf>
+            <Literal>Easy</Literal>
+            <Literal>Hard</Literal>
+            <Literal>Medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
