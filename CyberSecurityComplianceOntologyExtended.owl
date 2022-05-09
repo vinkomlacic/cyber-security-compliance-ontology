@@ -1,0 +1,1055 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Anonymisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ApplicableRegulationText"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Channel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Confidential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConfidentialDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSetCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Deidentification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#OrganisationalSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivateDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Proprietary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ProprietaryDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Pseudonymisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PublicDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Redaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSourceCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Sensitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitiveDataType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#TechnicalSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Tokenisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasApplicableRegulationText"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitecture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitectureComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasChannel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasDataType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasNode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperand"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasPrivacyMechanism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#madeIrrelevantByPrivacyMechanism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionedByApplicableRegulationText"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionsSecurityMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#processesDataSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#requiresImplementationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#suggestsImplementationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#underCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasEmployeeNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecondOperand"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetMarketSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetProperty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasUserBaseSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasWorkload"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ASWS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#GDPR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ISO_27001"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Channel"/>
+        <ObjectIntersectionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+            <ObjectExactCardinality cardinality="2">
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasNode"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Node"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConfidentialDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Confidential"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Node"/>
+        <ObjectIntersectionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasChannel"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Channel"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivateDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Private"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ProprietaryDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Proprietary"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PublicDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Public"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitiveDataType"/>
+        <ObjectIntersectionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Sensitive"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+        <ObjectUnionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Confidential"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Private"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Proprietary"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Public"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Sensitive"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Anonymisation"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Architecture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitectureComponent"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#processesDataSet"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSet"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Channel"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitecture"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Architecture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasEmployeeNumber"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetMarketSize"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasUserBaseSize"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+        <ObjectUnionOf>
+            <DataHasValue>
+                <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+                <Literal>!=</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+                <Literal>&lt;</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+                <Literal>&lt;=</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+                <Literal>=</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+                <Literal>&gt;</Literal>
+            </DataHasValue>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperand"/>
+            <Class IRI="Thing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecondOperand"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecurityMeasure"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#underCondition"/>
+            <ObjectUnionOf>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSetCondition"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Confidential"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConfidentialDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasDataType"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasPrivacyMechanism"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSetCondition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasDataType"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSetCondition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#madeIrrelevantByPrivacyMechanism"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Deidentification"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Node"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#OrganisationalSecurityMeasure"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Private"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivateDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Proprietary"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ProprietaryDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Pseudonymisation"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Public"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PublicDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Redaction"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Regulation"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#requiresImplementationOf"/>
+                <ObjectUnionOf>
+                    <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+                    <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#suggestsImplementationOf"/>
+                <ObjectUnionOf>
+                    <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+                    <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+            <ObjectUnionOf>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSource"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSourceCategory"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionedByApplicableRegulationText"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ApplicableRegulationText"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSourceCategory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+            <ObjectUnionOf>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSource"/>
+                <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSourceCategory"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Sensitive"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitiveDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#TechnicalSecurityMeasure"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Tokenisation"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Pseudonymisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ValuePartition"/>
+        <Class IRI="Thing"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Anonymisation"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Deidentification"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Pseudonymisation"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Redaction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ApplicableRegulationText"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Architecture"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSet"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSetCondition"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Regulation"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSource"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSourceCategory"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Channel"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Node"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Confidential"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Private"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Proprietary"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Public"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Sensitive"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConfidentialDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivateDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ProprietaryDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PublicDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitiveDataType"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSource"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ASWS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Regulation"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#GDPR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSource"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ISO_27001"/>
+    </ClassAssertion>
+    <DifferentIndividuals/>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasApplicableRegulationText"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitecture"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitectureComponent"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasChannel"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasDataType"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasNode"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperand"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasPrivacyMechanism"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecurityMeasure"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#madeIrrelevantByPrivacyMechanism"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionedByApplicableRegulationText"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionsSecurityMeasure"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#processesDataSet"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#requiresImplementationOf"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#suggestsImplementationOf"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#underCondition"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasChannel"/>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasNode"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionedByApplicableRegulationText"/>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionsSecurityMeasure"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperand"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecurityMeasure"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#underCondition"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasApplicableRegulationText"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitecture"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitectureComponent"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasApplicableRegulationText"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitecture"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitectureComponent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasChannel"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasDataType"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasNode"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperand"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasPrivacyMechanism"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#madeIrrelevantByPrivacyMechanism"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionedByApplicableRegulationText"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionsSecurityMeasure"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#processesDataSet"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#requiresImplementationOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#suggestsImplementationOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#underCondition"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasApplicableRegulationText"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitecture"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitectureComponent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasChannel"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasDataType"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasNode"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperand"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasPrivacyMechanism"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#madeIrrelevantByPrivacyMechanism"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionedByApplicableRegulationText"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionsSecurityMeasure"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#processesDataSet"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#requiresImplementationOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#suggestsImplementationOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#underCondition"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+        <ObjectUnionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSourceCategory"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasApplicableRegulationText"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Regulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitecture"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitectureComponent"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Architecture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasChannel"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Node"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasDataType"/>
+        <ObjectUnionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSet"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSetCondition"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasNode"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Channel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperand"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasPrivacyMechanism"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecurityMeasure"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#madeIrrelevantByPrivacyMechanism"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSetCondition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionedByApplicableRegulationText"/>
+        <ObjectUnionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#processesDataSet"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#requiresImplementationOf"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Regulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#suggestsImplementationOf"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Regulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#underCondition"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#comesFromSecurityMeasureSource"/>
+        <ObjectUnionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSource"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasureSourceCategory"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasApplicableRegulationText"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ApplicableRegulationText"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitecture"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Architecture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasArchitectureComponent"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ArchitectureComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasChannel"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Channel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasDataType"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasNode"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasPrivacyMechanism"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecurityMeasure"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSensitivity"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SensitivityValuePartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#madeIrrelevantByPrivacyMechanism"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#PrivacyMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#mentionedByApplicableRegulationText"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ApplicableRegulationText"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#processesDataSet"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#requiresImplementationOf"/>
+        <ObjectUnionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#suggestsImplementationOf"/>
+        <ObjectUnionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#ConditionalSecurityMeasure"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#underCondition"/>
+        <ObjectUnionOf>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+            <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#DataSetCondition"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasEmployeeNumber"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecondOperand"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetMarketSize"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetProperty"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasUserBaseSize"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasWorkload"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasEmployeeNumber"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecondOperand"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetMarketSize"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetProperty"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Condition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasUserBaseSize"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#Company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasWorkload"/>
+        <Class IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#SecurityMeasure"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasEmployeeNumber"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasOperator"/>
+        <DataOneOf>
+            <Literal>!=</Literal>
+            <Literal>&lt;</Literal>
+            <Literal>&lt;=</Literal>
+            <Literal>=</Literal>
+            <Literal>&gt;</Literal>
+            <Literal>&gt;=</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasSecondOperand"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetMarketSize"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasTargetProperty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasUserBaseSize"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="file:/C:/Users/vinko/Documents/workspace/ontologies/cyber-security-compliance-ontology/CyberSecurityComplianceOntologyExtended.owl#hasWorkload"/>
+        <DataOneOf>
+            <Literal>Easy</Literal>
+            <Literal>Hard</Literal>
+            <Literal>Medium</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
